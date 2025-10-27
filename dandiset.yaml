@@ -23,8 +23,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 127839602632
-  numberOfFiles: 330
+  numberOfBytes: 130075971990
+  numberOfFiles: 335
   numberOfSubjects: 31
   schemaKey: AssetsSummary
   species:
@@ -46,6 +46,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-10-03T14:13:31.697300+00:00'
+datePublished: '2025-10-27T19:53:19.047797+00:00'
 description: "Data from \"A brainstem map of orofacial rhythms.\" Heet Kaku, Liu D.
   Liu, Runbo Gao, Steven West, Song-Mao Liao, Arseny Finkelstein, David Kleinfeld,
   Alyse Thomas, Sri Laasya Tipparaju, Karel Svoboda, Nuo Li. BioRxiv 2025. doi: https://doi.org/10.1101/2025.01.27.635041
@@ -64,6 +65,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001619/versions/draft/assets/
 name: A brainstem map of orofacial rhythms
+publishedBy:
+  endDate: '2025-10-27T19:53:19.047797+00:00'
+  id: urn:uuid:533cc03e-0554-4f73-a47b-8d5e8971be10
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-10-27T19:53:19.047797+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:95a98a2d-ba86-4e82-a044-5ce7f319d95a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
