@@ -1,32 +1,32 @@
-participant_id	species	sex	strain
-sub-DL004	Mus musculus	M	014548
-sub-DL005	Mus musculus	M	014548
-sub-DL006	Mus musculus	M	014548
-sub-DL007	Mus musculus	M	014548
-sub-DL008	Mus musculus	M	014548
-sub-DL009	Mus musculus	M	014548
-sub-DL010	Mus musculus	M	014548
-sub-DL011	Mus musculus	M	014548
-sub-DL012	Mus musculus	M	014548
-sub-DL014	Mus musculus	M	014548
-sub-DL015	Mus musculus	M	014548
-sub-DL016	Mus musculus	F	014548
-sub-DL017	Mus musculus	M	014548
-sub-DL018	Mus musculus	M	014548
-sub-DL019	Mus musculus	M	014548
-sub-DL020	Mus musculus	F	014548
-sub-DL021	Mus musculus	F	014548
-sub-DL022	Mus musculus	M	014548
-sub-DL023	Mus musculus	M	014548
-sub-DL024	Mus musculus	F	014548
-sub-DL025	Mus musculus	F	014548
-sub-DL026	Mus musculus	M	014548
-sub-DL027	Mus musculus	M	014548
-sub-DL028	Mus musculus	M	014548
-sub-DL029	Mus musculus	M	014548
-sub-DL030	Mus musculus	F	014548
-sub-DL031	Mus musculus	F	014548
-sub-DL032	Mus musculus	M	014548
-sub-DL033	Mus musculus	F	014548
-sub-DL034	Mus musculus	F	014548
-sub-DL035	Mus musculus	M	014548
+participant_id	original_participant_id	species	sex	strain
+sub-DL004	sub-DL004	Mus musculus	M	014548
+sub-DL005	sub-DL005	Mus musculus	M	014548
+sub-DL006	sub-DL006	Mus musculus	M	014548
+sub-DL007	sub-DL007	Mus musculus	M	014548
+sub-DL008	sub-DL008	Mus musculus	M	014548
+sub-DL009	sub-DL009	Mus musculus	M	014548
+sub-DL010	sub-DL010	Mus musculus	M	014548
+sub-DL011	sub-DL011	Mus musculus	M	014548
+sub-DL012	sub-DL012	Mus musculus	M	014548
+sub-DL014	sub-DL014	Mus musculus	M	014548
+sub-DL015	sub-DL015	Mus musculus	M	014548
+sub-DL016	sub-DL016	Mus musculus	F	014548
+sub-DL017	sub-DL017	Mus musculus	M	014548
+sub-DL018	sub-DL018	Mus musculus	M	014548
+sub-DL019	sub-DL019	Mus musculus	M	014548
+sub-DL020	sub-DL020	Mus musculus	F	014548
+sub-DL021	sub-DL021	Mus musculus	F	014548
+sub-DL022	sub-DL022	Mus musculus	M	014548
+sub-DL023	sub-DL023	Mus musculus	M	014548
+sub-DL024	sub-DL024	Mus musculus	F	014548
+sub-DL025	sub-DL025	Mus musculus	F	014548
+sub-DL026	sub-DL026	Mus musculus	M	014548
+sub-DL027	sub-DL027	Mus musculus	M	014548
+sub-DL028	sub-DL028	Mus musculus	M	014548
+sub-DL029	sub-DL029	Mus musculus	M	014548
+sub-DL030	sub-DL030	Mus musculus	F	014548
+sub-DL031	sub-DL031	Mus musculus	F	014548
+sub-DL032	sub-DL032	Mus musculus	M	014548
+sub-DL033	sub-DL033	Mus musculus	F	014548
+sub-DL034	sub-DL034	Mus musculus	F	014548
+sub-DL035	sub-DL035	Mus musculus	M	014548
