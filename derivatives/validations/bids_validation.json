@@ -1,0 +1,2165 @@
+{
+  "issues": {
+    "issues": [
+      {
+        "code": "UNKNOWN_BIDS_VERSION",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.dataset.UnknownVersion",
+        "severity": "ignore"
+      },
+      {
+        "code": "README_FILE_MISSING",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.ReadmeFileMissing",
+        "severity": "ignore"
+      },
+      {
+        "code": "TOO_FEW_AUTHORS",
+        "location": "/dataset_description.json",
+        "rule": "rules.checks.hints.TooFewAuthors",
+        "severity": "ignore"
+      },
+      {
+        "code": "JSON_KEY_RECOMMENDED",
+        "subCode": "SourceDatasets",
+        "location": "/dataset_description.json",
+        "severity": "warning",
+        "rule": "rules.dataset_metadata.dataset_description",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL005/sub-DL005_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210322_20210322_153541_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210323_20210323_191704_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210322_20210322_153541_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210322_20210322_153541_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210324_20210324_182937_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210325_20210325_184009_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210323_20210323_191704_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL005/ses-20210324_20210324_182937_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL034/sub-DL034_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20220204_20220204_160613_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220209_20220209_175313_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220205_20220205_205500_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220205_20220205_205500_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220204_20220204_160613_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220210_20220210_122600_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220204_20220204_160613_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220208_20220208_155310_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220207_20220207_162824_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220208_20220208_155310_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220211_20220211_130659_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220207_20220207_162824_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220209_20220209_175313_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220206_20220206_135606_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220206_20220206_135606_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL034/ses-20220210_20220210_122600_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL006/sub-DL006_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210329_20210329_182702_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210331_20210331_165022_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210404_20210404_190316_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210331_20210331_165022_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210330_20210330_162605_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210404_20210404_190316_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210330_20210330_162605_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210329_20210329_182702_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL006/ses-20210329_20210329_182702_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL018/sub-DL018_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210604_20210604_134932_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210604_20210604_134932_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210607_20210607_154829_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210608_20210608_160542_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210604_20210604_134932_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210605_20210605_180522_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210606_20210606_190433_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210605_20210605_180522_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210608_20210608_160542_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL018/ses-20210606_20210606_190433_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL032/sub-DL032_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20220203_20220203_150448_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220205_20220205_183841_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220207_20220207_182717_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220209_20220209_154753_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220203_20220203_150448_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220204_20220204_140213_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220208_20220208_140250_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220204_20220204_140213_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220208_20220208_140250_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220206_20220206_120348_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220206_20220206_120348_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220207_20220207_182717_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220209_20220209_154753_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220203_20220203_150448_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL032/ses-20220205_20220205_183841_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL015/sub-DL015_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210521_20210521_134646_s3_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210523_20210523_193945_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210523_20210523_193945_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210524_20210524_210314_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210525_20210525_162955_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210521_20210521_134646_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210524_20210524_210314_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL015/ses-20210521_20210521_134646_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL009/sub-DL009_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210417_20210417_190726_s5_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210420_20210420_134905_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210419_20210419_134252_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210417_20210417_190726_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210418_20210418_183128_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210417_20210417_190726_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210418_20210418_183128_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL009/ses-20210419_20210419_134252_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL027/sub-DL027_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210629_20210629_163349_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL027/ses-20210701_20210701_183832_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL027/ses-20210630_20210630_172036_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL027/ses-20210701_20210701_183832_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL027/ses-20210630_20210630_172036_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL027/ses-20210629_20210629_163349_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL027/ses-20210629_20210629_163349_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL025/sub-DL025_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210620_20210620_185057_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210621_20210621_150550_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210623_20210623_182148_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210622_20210622_150251_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210620_20210620_185057_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210624_20210624_150601_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210625_20210625_132657_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210628_20210628_174113_s9_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210624_20210624_150601_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210626_20210626_175024_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210622_20210622_150251_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210623_20210623_182148_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210627_20210627_171222_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210625_20210625_132657_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210627_20210627_171222_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210626_20210626_175024_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210628_20210628_174113_s9_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210620_20210620_185057_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL025/ses-20210621_20210621_150550_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL031/sub-DL031_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20220106_20220106_154751_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220107_20220107_142239_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220111_20220111_150107_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220110_20220110_155427_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220106_20220106_154751_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220109_20220109_154303_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220109_20220109_154303_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220107_20220107_142239_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220112_20220112_160432_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220113_20220113_135515_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220113_20220113_135515_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220106_20220106_154751_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220111_20220111_150107_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220110_20220110_155427_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL031/ses-20220112_20220112_160432_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL011/sub-DL011_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210430_20210430_162529_s4_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210502_20210502_182735_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210430_20210430_162529_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210503_20210503_152301_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210503_20210503_152301_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210501_20210501_170129_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210502_20210502_182735_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210430_20210430_162529_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL011/ses-20210501_20210501_170129_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL033/sub-DL033_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20220120_20220120_143431_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220122_20220122_104809_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220121_20220121_110631_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220126_20220126_112615_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220127_20220127_121704_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220121_20220121_110631_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220120_20220120_143431_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220124_20220124_090906_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220122_20220122_104809_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220126_20220126_112615_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220125_20220125_140753_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220120_20220120_143431_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220123_20220123_151447_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220125_20220125_140753_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220127_20220127_121704_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220124_20220124_090906_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL033/ses-20220123_20220123_151447_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL004/sub-DL004_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210308_20210308_180033_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210310_20210310_141528_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210309_20210309_211406_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210310_20210310_141528_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210308_20210308_180033_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210311_20210311_202018_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210308_20210308_180033_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210311_20210311_202018_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL004/ses-20210309_20210309_211406_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL023/sub-DL023_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210609_20210609_193703_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210611_20210611_181435_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210615_20210615_161714_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210614_20210614_174925_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210615_20210615_161714_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210610_20210610_192453_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210609_20210609_193703_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210616_20210616_140611_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210614_20210614_174925_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210610_20210610_192453_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210612_20210612_151747_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210611_20210611_181435_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210617_20210617_153855_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210616_20210616_140611_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210609_20210609_193703_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL023/ses-20210617_20210617_153855_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL022/sub-DL022_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210608_20210608_192030_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210611_20210611_161641_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210608_20210608_192030_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210611_20210611_161641_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210609_20210609_171941_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210609_20210609_171941_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210610_20210610_162649_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210610_20210610_162649_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL022/ses-20210608_20210608_192030_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL029/sub-DL029_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20211222_20211222_174219_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211231_20211231_171339_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211224_20211224_175627_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211224_20211224_175627_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211231_20211231_171339_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211223_20211223_180749_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211222_20211222_174219_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211229_20211229_181921_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211225_20211225_175118_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211225_20211225_175118_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211223_20211223_180749_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211230_20211230_153041_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211222_20211222_174219_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL029/ses-20211229_20211229_181921_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL008/sub-DL008_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210411_20210411_141536_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL008/ses-20210411_20210411_141536_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL008/ses-20210411_20210411_141536_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL030/sub-DL030_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20220104_20220104_210910_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220104_20220104_210910_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220112_20220112_133301_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220106_20220106_124840_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220110_20220110_141133_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220112_20220112_133301_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220111_20220111_131653_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220111_20220111_131653_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220109_20220109_174047_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220105_20220105_134957_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220109_20220109_174047_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220104_20220104_210910_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220110_20220110_141133_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220106_20220106_124840_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220107_20220107_120736_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220113_20220113_115659_s9_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL030/ses-20220113_20220113_115659_s9_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL035/sub-DL035_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20220215_20220215_153331_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220215_20220215_153331_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220222_20220222_155228_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220218_20220218_092900_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220217_20220217_115422_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220222_20220222_155228_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220221_20220221_152433_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220215_20220215_153331_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220221_20220221_152433_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220217_20220217_115422_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220216_20220216_163932_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220218_20220218_092900_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220223_20220223_111912_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220216_20220216_163932_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL035/ses-20220223_20220223_111912_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL010/sub-DL010_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210422_20210422_164432_s7_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210423_20210423_181024_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210424_20210424_080828_s9_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210425_20210425_172946_s10_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210424_20210424_080828_s9_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210422_20210422_164432_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210425_20210425_172946_s10_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210423_20210423_181024_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL010/ses-20210422_20210422_164432_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL016/sub-DL016_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210522_20210522_193959_s4_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210523_20210523_173008_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210526_20210526_192036_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210524_20210524_185702_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210525_20210525_142851_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210524_20210524_185702_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210526_20210526_192036_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210525_20210525_142851_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210522_20210522_193959_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210522_20210522_193959_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL016/ses-20210523_20210523_173008_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL014/sub-DL014_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210514_20210514_122757_s4_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL014/ses-20210514_20210514_122757_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL014/ses-20210514_20210514_122757_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL014/ses-20210515_20210515_185216_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL014/ses-20210515_20210515_185216_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL014/ses-20210516_20210516_181146_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL014/ses-20210516_20210516_181146_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL028/sub-DL028_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20211217_20211217_172936_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211220_20211220_113229_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211223_20211223_160102_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211217_20211217_172936_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211218_20211218_165752_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211220_20211220_113229_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211221_20211221_151820_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211217_20211217_172936_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211222_20211222_150854_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211219_20211219_182029_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211221_20211221_151820_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211218_20211218_165752_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211219_20211219_182029_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211222_20211222_150854_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211224_20211224_153012_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL028/ses-20211223_20211223_160102_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL007/sub-DL007_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210409_20210409_193158_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210410_20210410_135929_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210411_20210411_191718_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210409_20210409_193158_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210412_20210412_202840_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210412_20210412_202840_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210410_20210410_135929_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210411_20210411_191718_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL007/ses-20210409_20210409_193158_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL024/sub-DL024_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210615_20210615_142740_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210615_20210615_142740_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210621_20210621_133610_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210619_20210619_175647_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210618_20210618_152516_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210620_20210620_165743_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210622_20210622_131757_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210620_20210620_165743_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210623_20210623_161937_s9_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210617_20210617_180836_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210618_20210618_152516_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210621_20210621_133610_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210617_20210617_180836_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210616_20210616_155825_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210623_20210623_161937_s9_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210616_20210616_155825_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210615_20210615_142740_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210619_20210619_175647_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL024/ses-20210622_20210622_131757_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL021/sub-DL021_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210527_20210527_154224_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210527_20210527_154224_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210531_20210531_181515_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210531_20210531_181515_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210528_20210528_145202_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210530_20210530_193546_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210529_20210529_201133_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210529_20210529_201133_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210528_20210528_145202_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210527_20210527_154224_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL021/ses-20210530_20210530_193546_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL017/sub-DL017_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210707_20210707_163554_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210707_20210707_163554_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210707_20210707_163554_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210710_20210710_185624_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210709_20210709_170615_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210709_20210709_170615_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210711_20210711_201706_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210708_20210708_145010_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210714_20210714_194431_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210711_20210711_201706_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210713_20210713_105904_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210713_20210713_105904_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210714_20210714_194431_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210710_20210710_185624_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210712_20210712_140111_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL017/ses-20210708_20210708_145010_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL012/sub-DL012_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210506_20210506_161446_s6_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210509_20210509_184546_s9_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210507_20210507_121543_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210506_20210506_161446_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210508_20210508_193616_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210506_20210506_161446_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210508_20210508_193616_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210507_20210507_121543_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL012/ses-20210509_20210509_184546_s9_p1/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL026/sub-DL026_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210624_20210624_123518_s1_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210624_20210624_123518_s1_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210625_20210625_152756_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210628_20210628_193921_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210701_20210701_164102_s8_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210701_20210701_164102_s8_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210624_20210624_123518_s1_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210627_20210627_191710_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210702_20210702_151622_s9_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210627_20210627_191710_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210629_20210629_133803_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210702_20210702_151622_s9_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210625_20210625_152756_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210629_20210629_133803_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210626_20210626_194318_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210628_20210628_193921_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210630_20210630_152451_s7_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210630_20210630_152451_s7_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL026/ses-20210626_20210626_194318_s3_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL020/sub-DL020_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210528_20210528_123822_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210528_20210528_123822_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210601_20210601_161014_s6_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210530_20210530_171839_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210531_20210531_205055_s5_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210530_20210530_171839_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210601_20210601_161014_s6_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210528_20210528_123822_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL020/ses-20210531_20210531_205055_s5_p2/",
+        "severity": "error"
+      },
+      {
+        "subCode": "session_id",
+        "location": "/sub-DL019/sub-DL019_sessions.tsv",
+        "rule": "rules.tabular_data.modality_agnostic.Sessions",
+        "code": "TSV_VALUE_INCORRECT_TYPE",
+        "line": 2,
+        "issueMessage": "'ses-20210605_20210605_201253_s2_p1'",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL019/ses-20210607_20210607_204058_s4_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL019/ses-20210606_20210606_214820_s3_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL019/ses-20210607_20210607_204058_s4_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL019/ses-20210605_20210605_201253_s2_p2/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL019/ses-20210605_20210605_201253_s2_p1/",
+        "severity": "error"
+      },
+      {
+        "code": "NOT_INCLUDED",
+        "location": "/sub-DL019/ses-20210606_20210606_214820_s3_p2/",
+        "severity": "error"
+      }
+    ],
+    "codeMessages": {
+      "UNKNOWN_BIDS_VERSION": "The BIDSVersion field of 'dataset_description.json' does not match a known release.\nThe BIDS Schema used for validation may be out of date.\n",
+      "README_FILE_MISSING": "The recommended file /README is missing.\nSee Section 03 (Modality agnostic files) of the BIDS specification.\n",
+      "TOO_FEW_AUTHORS": "The 'Authors' field of 'dataset_description.json' should contain an array of values -\nwith one author per value.\nThis was triggered based on the presence of only one author field.\nPlease ignore if all contributors are already properly listed.\n",
+      "JSON_KEY_RECOMMENDED": "A JSON file is missing a key listed as recommended.",
+      "TSV_VALUE_INCORRECT_TYPE": "A value in a column did not match the acceptable type for that column headers specified format.",
+      "NOT_INCLUDED": "Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a \".bidsignore\" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder."
+    }
+  },
+  "summary": {
+    "sessions": [],
+    "subjects": [
+      "DL005",
+      "DL034",
+      "DL006",
+      "DL018",
+      "DL032",
+      "DL015",
+      "DL009",
+      "DL027",
+      "DL025",
+      "DL031",
+      "DL011",
+      "DL033",
+      "DL004",
+      "DL023",
+      "DL022",
+      "DL029",
+      "DL008",
+      "DL030",
+      "DL035",
+      "DL010",
+      "DL016",
+      "DL014",
+      "DL028",
+      "DL007",
+      "DL024",
+      "DL021",
+      "DL017",
+      "DL012",
+      "DL026",
+      "DL020",
+      "DL019"
+    ],
+    "subjectMetadata": [
+      {
+        "participantId": "DL004",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL005",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL006",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL007",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL008",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL009",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL010",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL011",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL012",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL014",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL015",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL016",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL017",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL018",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL019",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL020",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL021",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL022",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL023",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL024",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL025",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL026",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL027",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL028",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL029",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL030",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL031",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL032",
+        "sex": "M"
+      },
+      {
+        "participantId": "DL033",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL034",
+        "sex": "F"
+      },
+      {
+        "participantId": "DL035",
+        "sex": "M"
+      }
+    ],
+    "tasks": [],
+    "modalities": [],
+    "secondaryModalities": [],
+    "totalFiles": 400,
+    "size": 2603213,
+    "dataProcessed": false,
+    "pet": {},
+    "dataTypes": [],
+    "schemaVersion": "1.3.0-dev"
+  }
+}
