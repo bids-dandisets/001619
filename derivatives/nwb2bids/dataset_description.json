@@ -1,0 +1,19 @@
+{
+    "Name": "A brainstem map of orofacial rhythms",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Data from \"A brainstem map of orofacial rhythms.\" Heet Kaku, Liu D. Liu, Runbo Gao, Steven West, Song-Mao Liao, Arseny Finkelstein, David Kleinfeld, Alyse Thomas, Sri Laasya Tipparaju, Karel Svoboda, Nuo Li. BioRxiv 2025. doi: https://doi.org/10.1101/2025.01.27.635041 \n\nThis dataset comprises Neuropixels electrophysiological recordings used to construct a brainstem-wide activity map in behaving mice, DeepLabCut-based tracking of orofacial features, and anatomical localization of recording sites registered to the Allen Mouse Brain Common Coordinate Framework (CCF). \n\nThe corresponding analysis code is available at: https://github.com/NuoLiLabBCM/KakuEtAl2025\n\nSharing of this dataset was made possible by support from NIH DP1NS142432, R01NS131229, RF1NS132025, Pew Scholar Program, the McKnight Foundation, Simons Collaboration on the Global Brain.\n",
+    "DatasetType": "derivative",
+    "Authors": [
+        "Li, Nuo"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.12.1.dev6+gf29fa0039",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
